@@ -1,0 +1,19 @@
+*.class
+**/bin
+**/build
+**/target
+**/htmlcov
+**/venv
+
+/.gradle/
+.metadata
+HELP.md
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+**/.settings
+**/.classpath
+**/.project
+**/*.jar
+/Java JDK src/
+/java-challenge-siva/
