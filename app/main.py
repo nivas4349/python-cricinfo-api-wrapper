@@ -75,7 +75,3 @@ def f_get_summary(p):
             'lastT20': p.last_t20, 'odiDebut': p.odi_debut, 'lastOdi': p.last_odi,
             'recentMatches': p.recent_matches}
     return jsonify(data)
-
-
-if __name__ == '__main__':
-    app.run()
