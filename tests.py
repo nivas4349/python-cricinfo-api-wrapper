@@ -1,4 +1,4 @@
-from core_api_flask import *
+from main import *
 from http_constants.headers import HttpHeaders
 import unittest
 
