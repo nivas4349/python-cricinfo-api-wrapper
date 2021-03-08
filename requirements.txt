@@ -19,6 +19,7 @@ python-espncricinfo==0.5.8
 pytz==2020.5
 regex==2020.11.13
 requests==2.25.1
+requests-cache==0.5.2
 six==1.15.0
 soupsieve==2.1
 tzlocal==2.1

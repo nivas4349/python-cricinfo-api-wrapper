@@ -3,6 +3,11 @@ from flask_restful import Api
 from espncricinfo.player import Player as CricInfoPlayer
 from espncricinfo.exceptions import *
 
+import requests
+import requests_cache
+
+requests_cache.install_cache('app/players_stats_cache', backend='sqlite', expire_after=600)  # 30 days - 2592000
+
 PLAYER_HOME_PATH = "/player"
 PLAYER_HOME_PATH_WITH_SLASH = "/player/"
 BATTING_PATH = "/battingstats"

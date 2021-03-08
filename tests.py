@@ -1,4 +1,4 @@
-from main import *
+from app.main import *
 from http_constants.headers import HttpHeaders
 import unittest
 
